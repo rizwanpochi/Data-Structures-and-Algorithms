@@ -7,8 +7,8 @@ public class Main {
     public static void main(String[] args) {
         // write your code here
         int c = 0;
-        int[] arr = {16, 19, 20, 30, 38, 50, 55, 56};
-        int target = 38;
+        int[] arr = {1, 7, 7, 7, 7, 8, 8, 10};
+        int target = 7;
         int ans = binarySearch(arr, target);
         System.out.println(ans);
         if (ans == -1) {
