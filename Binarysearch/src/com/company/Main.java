@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         // write your code here
         int c = 0;
-        int[] arr = {1, 7, 7, 7, 7, 8, 8, 10};
+        int[] arr = {1, 5, 7, 9, 17, 18, 19, 30, 31};
         int target = 7;
         int ans = binarySearch(arr, target);
         System.out.println(ans);
